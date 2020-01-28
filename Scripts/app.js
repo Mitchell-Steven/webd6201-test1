@@ -1,7 +1,7 @@
 /*
-    Student Name  :
-    StudentID     :
-    Date Completed:
+    Student Name  : Steven Mitchell
+    StudentID     : 100506443
+    Date Completed: 2020-01-28
 */
 
 "use strict";
@@ -10,6 +10,13 @@
 
 let app;
 (function(app){
+    //A variable called button that holds the contents of the tag with an ID of "largeButton"
+    let button = document.getElementById("largeButton");
+    
+    //Changes the text of the large button from "Large Button" to "Learn More"
+    button.textContent = "Learn More";
+
+    //console.log(button);
 
     // Declare Function Variables here...
     console.log("%cDeclaring Variables", "color: red;")
