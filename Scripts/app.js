@@ -27,7 +27,11 @@ let app;
     //Inserts the newly created h3 tag with its text content before the large button
     div.insertBefore(h3, div.lastElementChild);
 
+    //Changes the text content of the p tag with an ID of firstParagraph
     firstP.textContent = "JavaScript is a prototype-based language, and every object in JavaScript has a hidden internal property called Prototype that can be used to extend object properties and methods.";
+
+    //
+    firstP.style.display = "none";
 
     //console.log(button);
 
