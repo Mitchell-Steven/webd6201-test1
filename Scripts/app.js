@@ -16,6 +16,8 @@ let app;
     let h3 = document.createElement("h3");
     //A variable called div that holds the div tag with an ID of "contentArea" and all of it's elements
     let div = document.getElementById("contentArea");
+    //A variable called firstP that holds the p tag with an ID of "firstParagraph"
+    let firstP = document.getElementById("firstParagraph");
     
     //Changes the text of the large button from "Large Button" to "Learn More"
     button.textContent = "Learn More";
@@ -24,6 +26,8 @@ let app;
     h3.textContent = "Name: Steven Mitchell 100506443";
     //Inserts the newly created h3 tag with its text content before the large button
     div.insertBefore(h3, div.lastElementChild);
+
+    firstP.textContent = "JavaScript is a prototype-based language, and every object in JavaScript has a hidden internal property called Prototype that can be used to extend object properties and methods.";
 
     //console.log(button);
 
