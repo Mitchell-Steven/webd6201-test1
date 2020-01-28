@@ -39,11 +39,13 @@ let app;
         if(button.textContent == "Learn More")
         {
             button.textContent = "Hide Details";
+            firstP.style.display = "block";
         }
         //If the large button does not read Learn More when clicked the text will be changed to Learn More
         else
         {
             button.textContent = "Learn More";
+            firstP.style.display = "none";
         }
     });
 
