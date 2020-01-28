@@ -30,8 +30,22 @@ let app;
     //Changes the text content of the p tag with an ID of firstParagraph
     firstP.textContent = "JavaScript is a prototype-based language, and every object in JavaScript has a hidden internal property called Prototype that can be used to extend object properties and methods.";
 
-    //
+    //Hides the firstParagraph tag so that it cannot be seen on the page
     firstP.style.display = "none";
+
+    //Click event for the large button
+    button.addEventListener("click", function(){
+        //If the large button reads Learn more when clicked the text will be changed to Hide Details
+        if(button.textContent == "Learn More")
+        {
+            button.textContent = "Hide Details";
+        }
+        //If the large button does not read Learn More when clicked the text will be changed to Learn More
+        else
+        {
+            button.textContent = "Learn More";
+        }
+    });
 
     //console.log(button);
 
